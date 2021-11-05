@@ -1,0 +1,47 @@
+/************Quote*************/
+
+.quote-section {
+    background-color:var(--second-color);
+    min-height: 300px;
+    padding: 20px 50px;
+}
+
+.quote-container {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    display: inline-block;
+    animation-name: cambiarAncho, cambiarColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-direction: alternate;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes cambiarColor {
+    from {background-color: black;}
+    to {background-color: dimgrey;}
+    
+}
+
+@keyframes cambiarAncho {
+    0% {width: 500px;}
+    50% {width: 300px;}
+    100% {width: 600px;}
+    
+}
+
+.quote-container i {
+    font-size: 100px;
+    margin-bottom: 4%;
+}
+
+blockquote {
+    margin-bottom: 4%;
+}
