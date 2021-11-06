@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!---Favicon--->
+     <link rel="shortcut icon" href="./img/favicon-32x32.png">
+
+     <!---Tipografía--->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+       
+     <!---Links CSS-->
+     <link rel="stylesheet" href="./styles/formulario.css"/>
+
+    <!-- # Open Graph Meta Tags # -->
+    <!-- Facebook -->
+    <meta property="og:title" content="Maria Laura Pallares - Portfolio">
+    <meta property="og:description" content="Estudiante de la carrera de Lic. en Sistemas. Full Stack Python. Jr. Seguridad Informática">
+    <meta property="og:type" content="article">
+    <meta property="og:site name" content="Maria Laura Pallares">
+    <meta property="og:url" content="https://github.com/mlpallares/Portfolio-.git">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://github.com/mlpallares/Portfolio-.git">
+    <meta property="twitter:title" content="Maria Laura Pallares - Portfolio">
+    <meta property="twitter:description" content="Estudiante de la carrera de Lic. en Sistemas. Full Stack Python. Jr. Seguridad Informática">
+
+   
+    <title>Formulario</title> 
+    
+</head>
+<body>  
+
+    
+
+    <form action=""  class="formulario" id="form" >
+         
+           
+            <div class="formulario__grupo"  id="grupo__nombre">
+    
+                <label for="nombre" class="formulario__label">Nombres</label>
+                <div class="formulario__grupo-input">
+                
+                <input type="text" name="nombre" id="nombre" class="formulario__input" placeholder="Maria Pallares">
+    
+     
+                </div>
+     
+                
+                                           
+                
+
+                       <div class="formulario__grupo"  id="grupo__correo">
+    
+                        <label for="correo" class="formulario__label">Correo Electronico</label>
+                        <div class="formulario__grupo-input">
+                            
+                        <input type="email" name="correo" id="correo" class="formulario__input" placeholder="correo@correo.com">
+            
+                 
+                    </div>
+         
+            
+
+                       <div class="formulario__grupo"  id="grupo__mensaje">
+    
+                        <label for="mensaje" class="formulario__label">Mensaje</label>
+                        <div class="formulario__grupo-input">
+                            
+                        <input type="text" name="mensaje" id="mensaje" class="formulario__input">
+                    
+                 
+                    </div>
+           
+                    <br>
+                     
+                    <div class="formulario__grupo formulario__grupo-btn-enviar">
+                    <button type="submit" class="formulario__btn">ENVIAR</button>
+
+
+                    </div>
+
+                    <p class="warnings" id="warnings"></p>
+                    
+    </form>
+
+    <script src="./js/validacion.js"></script>
+
+
+
+
+    <script src="https://kit.fontawesome.com/80b4d13fff.js" crossorigin="anonymous"></script>
+
+     
+
+
+    
+
+</body>
+</html>
